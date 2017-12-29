@@ -1,5 +1,6 @@
 # build
 
+```
 $ vagrant up
-
-sudo livecd-creator --verbose --config=fedora-live-scientific_kde.ks --fslabel=Fedora-LiveCD --cache=/var/cache/live --release=27
+$ sudo livemedia-creator --make-iso --ks=./fedora-live-scientific_kde.ks  --no-virt --releasever=28
+```
